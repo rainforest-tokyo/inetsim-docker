@@ -1,12 +1,15 @@
 inetsim-docker
 
-docker build -t <name> .
-docker run -it -d --name inetsim <name>
+docker build -t [name] .
+
+docker run -it -d --name inetsim [name]
+
 docker ps
 
 docker exec -i -t inetsim /bin/bash
 
 Start InetSim
+
 $ inetsim > ./inetsim.log &
 
 
